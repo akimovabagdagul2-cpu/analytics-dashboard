@@ -1,0 +1,36 @@
+{
+  "name": "beauty-analytics-dashboard",
+  "version": "1.0.0",
+  "description": "Big Data-based cosmetic store analytics platform",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "backend": "node server/index.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.0.0",
+    "tailwindcss": "^3.3.0",
+    "recharts": "^2.10.0",
+    "i18next": "^23.0.0",
+    "react-i18next": "^13.0.0",
+    "axios": "^1.5.0",
+    "lucide-react": "^0.263.0",
+    "framer-motion": "^10.16.0",
+    "jspdf": "^2.5.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "typescript": "^5.0.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0"
+  }
+}
